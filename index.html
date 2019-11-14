@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="calculator.css">
+  <link rel="stylesheet" type="text/css" href="reset.css">
+  <title>calculator</title>
+</head>
+<body>
+  <script type="text/javascript" src="hw_calculator.js"></script>
+  <header>
+  </header>
+  <div class="mainvisual myForm">
+      <div class="cal_title">
+        <p>Calsulator</p>
+      </div>
+      <div class="cal_clear">
+        <div id="output_total" class="output ">0</div>
+        <div id="output_sub" class="output active">0</div>
+      </div>
+      <div class="cal_numbers">
+        <div class="cal_numbers_line">
+          <div id="clear">C</div>
+          <div class="cal_btn"></div>
+          <div id="bs">BS</div>
+          <div class="cal_btn cal" data-index-id='/'>÷</div>
+        </div>
+        <div class="cal_numbers_line">
+          <div class="cal_btn one_nine" data-index-id=7>7</div>
+          <div class="cal_btn one_nine" data-index-id=8>8</div>
+          <div class="cal_btn one_nine" data-index-id=9>9</div>
+          <div class="cal_btn cal" data-index-id='*'>×</div>
+        </div>
+        <div class="cal_numbers_line">
+          <div class="cal_btn one_nine" data-index-id=4>4</div>
+          <div class="cal_btn one_nine" data-index-id=5>5</div>
+          <div class="cal_btn one_nine" data-index-id=6>6</div>
+          <div class="cal_btn cal" data-index-id='-'>-</div>
+        </div>
+        <div class="cal_numbers_line">
+          <div class="cal_btn one_nine" data-index-id=1>1</div>
+          <div class="cal_btn one_nine" data-index-id=2>2</div>
+          <div class="cal_btn one_nine" data-index-id=3>3</div>
+          <div class="cal_btn cal" data-index-id='+'>+</div>
+        </div>
+        <div class="cal_numbers_line">
+          <div class="cal_btn" data-index-id=00>00</div>
+          <div class="cal_btn" id="zero" data-index-id=0>0</div>
+          <div class="cal_btn" id="point" data-index-id=.>.</div>
+          <div id="equal_btn">=</div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>
